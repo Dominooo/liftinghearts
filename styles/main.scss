@@ -1,0 +1,62 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+
+
+
+$mobile-tiny: new-breakpoint(min-width 320px);
+$mobile: new-breakpoint(min-width  480px);
+$tablet-tall: new-breakpoint(min-width  640px);
+$tablet-wide: new-breakpoint(min-width  860px);
+$large: new-breakpoint(min-width  1024px);
+
+
+$mario-yellow: #f7d239;
+$large-screen: 1280px;
+
+
+html {
+	background: url(http://i.imgur.com/R5Xv5KK.jpg); 
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.page-wrapper {
+	@include outer-container(1140px);
+
+  .header-image {
+    @include span-columns(12);
+    @include omega();
+    height: 322px;
+  }
+
+  .nav-bar {
+    @include span-columns(12);
+    background: url(http://i.imgur.com/UGrB2xD.jpg);
+    height: 48px;
+  }
+
+  .nav-item {
+    display: inline-block;
+    padding: 12px 19px;
+    
+    a {
+        color: #fff;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+
+.content {
+  background-color: #fff;
+  min-height: 950px;
+}
+
+
+}
