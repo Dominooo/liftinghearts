@@ -185,7 +185,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Josefin Sans', sans-serif; }
 
 .page-wrapper {
   max-width: 1140px;
@@ -215,13 +215,101 @@ body {
       margin-right: 0; }
   .page-wrapper .nav-item {
     display: inline-block;
-    padding: 12px 19px; }
+    padding: 12px 22px; }
     .page-wrapper .nav-item a {
       color: #fff; }
       .page-wrapper .nav-item a:hover {
         color: #333; }
   .page-wrapper .content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
     background-color: #fff;
     min-height: 950px; }
+    .page-wrapper .content:last-child {
+      margin-right: 0; }
+    .page-wrapper .content .tagline {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      text-align: center;
+      font-size: 3em;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      color: #333;
+      padding: 20px; }
+      .page-wrapper .content .tagline:last-child {
+        margin-right: 0; }
+    .page-wrapper .content .video {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .page-wrapper .content .video:last-child {
+        margin-right: 0; }
+      .page-wrapper .content .video img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        margin-left: 17.05961%; }
+        .page-wrapper .content .video img:last-child {
+          margin-right: 0; }
+    .page-wrapper .content .instructions {
+      font-size: 1.2em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 5%; }
+      .page-wrapper .content .instructions:last-child {
+        margin-right: 0; }
+      .page-wrapper .content .instructions input {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        margin-left: 25.58941%;
+        margin-top: 5%; }
+        .page-wrapper .content .instructions input:last-child {
+          margin-right: 0; }
+      .page-wrapper .content .instructions button {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 14.70196%;
+        margin-left: 42.64902%;
+        background-color: #db4c81;
+        color: #fff; }
+        .page-wrapper .content .instructions button:last-child {
+          margin-right: 0; }
+
+.footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(http://i.imgur.com/mq2xLKL.jpg);
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  display: block; }
+  .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .footer a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    color: #fff;
+    padding: 18px;
+    font-size: 1.5em; }
+    .footer a:last-child {
+      margin-right: 0; }
+    .footer a:hover {
+      color: #333; }
 
 /*# sourceMappingURL=main.css.map */
